@@ -1,0 +1,92 @@
+.containerNavbar {
+  border: 1px solid;
+  display: flex;
+  height: calc(3.5rem - 1px);
+
+  border-bottom: 2px solid white;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 13%;
+  cursor: pointer;
+}
+.piece {
+  width: 40%;
+  height: 33.33%;
+  margin: 5px;
+  background-color: white;
+}
+.logos {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.bluesoulLogo {
+  width: auto;
+  height: 100%;
+}
+.bimg {
+  border: 1px solid white;
+}
+.logoImg {
+  border-radius: 60%;
+  height: 100%;
+  width: auto;
+  margin-left: 5px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.logoImg:active {
+  transform: scale(0.85);
+}
+.searchbar {
+  width: 25%;
+  height: 100%;
+}
+.navlinks {
+  width: 42%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navlinks div {
+  width: auto;
+  height: 80%;
+  background-color: white;
+  border-radius: 56%;
+  margin-left: 5px;
+  margin: 4px;
+}
+.aboutbluesoul {
+  display: none;
+  transition: opacity 0.3s ease;
+  background-color: white;
+  font-family: cursive;
+  flex-direction: row;
+  border-radius: 10%;
+}
+.contentofbs {
+  margin: 3px;
+}
+.bimg:hover {
+  transform: scale(1.5);
+}
+.aboutbluesoul.visible {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+.aboutbluesoul.hidden {
+  display: none;
+  opacity: 0;
+}
+.logoflexm {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 100%;
+}
