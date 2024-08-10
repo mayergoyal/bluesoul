@@ -71,6 +71,8 @@
 }
 .contentofbs {
   margin: 3px;
+  width: 150px;
+  height: auto;
 }
 .bimg:hover {
   transform: scale(1.5);

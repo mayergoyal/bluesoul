@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaFeather } from "react-icons/fa";
 import { MdGroup } from "react-icons/md";
-function Navbar() {
+function Navbar({ toggledrawer }) {
   const [data, setData] = useState([
     // Your data here, e.g., list of items to search through
     { id: 1, name: "Item 1" },
@@ -78,7 +78,6 @@ function Navbar() {
               <div className="contentofbs">
                 BlueSoul is a platform where you learn Kanha's lessons .
               </div>
-              <button>click to follow</button>
             </div>
           </div>
         </div>
